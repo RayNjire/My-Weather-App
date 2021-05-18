@@ -47,6 +47,7 @@ public class WeatherAPI extends AppCompatActivity implements View.OnClickListene
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.weather_api);
+        
         btnGetWeather = findViewById(R.id.BTNGetWeather);
         txtCity = findViewById(R.id.TXTCity);
         lblWeatherSubtitle = findViewById(R.id.LBLWeatherSubTitle);
