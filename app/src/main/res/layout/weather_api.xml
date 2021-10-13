@@ -70,7 +70,9 @@
                 android:hint = "@string/enter_city_name"
                 android:importantForAutofill = "no"
                 android:inputType = "textNoSuggestions"
+                android:minHeight = "48dp"
                 android:textColor = "@color/white"
+                tools:ignore = "TextContrastCheck"
                 />
           
           <Button
@@ -80,8 +82,7 @@
               android:layout_below = "@id/TXTCity"
               android:layout_centerHorizontal = "true"
               android:layout_marginBottom = "10dp"
-              android:background = "#00105C"
-              android:backgroundTint = "#97089FAD"
+              android:backgroundTint = "@color/purple_500"
               android:ems = "17"
               android:onClick = "onClick"
               android:text = "@string/get_weather"
